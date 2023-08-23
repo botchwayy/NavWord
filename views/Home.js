@@ -11,10 +11,10 @@ const Home = () => {
             <View><Text style={styles.heading1}>NavWord</Text></View>
             <View><Text style={styles.heading2}>Select any of the following and generate a list of word associates.</Text></View>
             <View style={styles.tagContainer}>
-                <TouchableOpacity onPress={() => navigation.navigate("Starts")} style={styles.background}><Text style={styles.label}>Starts With ...</Text></TouchableOpacity>
-                <TouchableOpacity onPress={() => navigation.navigate("Ends")} style={styles.bg2}><Text style={styles.label}>Ends With ...</Text></TouchableOpacity>
-                <TouchableOpacity onPress={() => navigation.navigate("Rhymes")} style={styles.bg3}><Text style={styles.label}>Rhymes With ...</Text></TouchableOpacity>
-                <TouchableOpacity onPress={() => navigation.navigate("Related")} style={styles.bg4}><Text style={styles.label}>Related To ...</Text></TouchableOpacity>
+                <TouchableOpacity onPress={() => navigation.navigate("Starts")} style={styles.background}><Text style={styles.label}>Starts With </Text></TouchableOpacity>
+                <TouchableOpacity onPress={() => navigation.navigate("Ends")} style={styles.bg2}><Text style={styles.label}>Ends With </Text></TouchableOpacity>
+                <TouchableOpacity onPress={() => navigation.navigate("Rhymes")} style={styles.bg3}><Text style={styles.label}>Rhymes With </Text></TouchableOpacity>
+                <TouchableOpacity onPress={() => navigation.navigate("Related")} style={styles.bg4}><Text style={styles.label}>Related To </Text></TouchableOpacity>
             </View>
         </ScrollView>
     </SafeAreaView>
@@ -33,17 +33,18 @@ const styles = StyleSheet.create({
         fontStyle: "italic",
         color: "#017371",
         fontWeight: "600",
-        textDecorationStyle: "double"
+        textAlign: 'center',
+        textDecorationStyle: "dashed"
     },
     heading2: {
         fontSize: 27,
-        textAlign: "center",
+        textAlign: "justify",
         paddingTop: 23,
         paddingBottom: 5
     },
     label: {
         fontSize: 30,
-        color: "#ffffff",
+        color: "#000000",
         fontWeight: '700',
         textAlign: "center",
     },
@@ -51,12 +52,12 @@ const styles = StyleSheet.create({
         backgroundColor: "#7fffd4",
         paddingHorizontal: 15,
         paddingVertical: 35,
-        borderRadius: 10,
+        borderRadius: 18,
         borderTopWidth: 6,
         borderBottomWidth: 6,
         borderLeftWidth: 6,
         borderRightWidth: 6,
-        borderColor: "#FFF",
+        borderColor: "#000000",
         shadowColor: "#000000",
         shadowOffset: {
         width: 0,
@@ -71,12 +72,12 @@ const styles = StyleSheet.create({
         backgroundColor: "#dcdcdc",
         paddingHorizontal: 15,
         paddingVertical: 35,
-        borderRadius: 10,
+        borderRadius: 18,
         borderTopWidth: 6,
         borderBottomWidth: 6,
         borderLeftWidth: 6,
         borderRightWidth: 6,
-        borderColor: "#FFF",
+        borderColor: "#000000",
         shadowColor: "#000000",
         shadowOffset: {
         width: 0,
@@ -91,12 +92,12 @@ const styles = StyleSheet.create({
         backgroundColor: "#ffe4c4",
         paddingHorizontal: 15,
         paddingVertical: 35,
-        borderRadius: 10,
+        borderRadius: 18,
         borderTopWidth: 6,
         borderBottomWidth: 6,
         borderLeftWidth: 6,
         borderRightWidth: 6,
-        borderColor: "#FFF",
+        borderColor: "#000000",
         shadowColor: "#000000",
         shadowOffset: {
         width: 0,
@@ -111,12 +112,12 @@ const styles = StyleSheet.create({
         backgroundColor: "#017371",
         paddingHorizontal: 15,
         paddingVertical: 35,
-        borderRadius: 10,
+        borderRadius: 18,
         borderTopWidth: 6,
         borderBottomWidth: 6,
         borderLeftWidth: 6,
         borderRightWidth: 6,
-        borderColor: "#FFF",
+        borderColor: "#000000",
         shadowColor: "#000000",
         shadowOffset: {
         width: 0,

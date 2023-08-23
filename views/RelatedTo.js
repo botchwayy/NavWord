@@ -72,11 +72,12 @@ const styles = StyleSheet.create({
         backgroundColor: "#eeeeee"
     },
     heading1: {
+        textAlign: 'center',
         fontSize: 45,
         fontWeight: "600",
         fontStyle: "italic",
         color: "#017371",
-        textDecorationStyle: "double"
+        textDecorationStyle: "dashed"
     },
     rowContainer: {
         marginTop: 25,
@@ -89,6 +90,7 @@ const styles = StyleSheet.create({
         color: "#454545"
     },
     input: {
+        backgroundColor: "ffffff",
         paddingLeft: 8,
         fontSize: 23,
         borderColor: "#000",
@@ -96,7 +98,7 @@ const styles = StyleSheet.create({
         borderBottomWidth: 2,
         borderRightWidth: 2,
         borderLeftWidth: 2,
-        borderRadius: 10,
+        borderRadius: 0,
         height: 50,
         width: 120
     },
@@ -108,13 +110,13 @@ const styles = StyleSheet.create({
         borderBottomWidth: 4,
         borderRightWidth: 4,
         borderLeftWidth: 4,
-        borderRadius: 10
+        borderRadius: 13
 
     },
     btnCont: {
         backgroundColor: "#017371",
         marginVertical: 20,
-        borderRadius: 5,
+        borderRadius: 13,
         paddingVertical: 17,
         shadowColor: "#000000",
         shadowOffset: {
