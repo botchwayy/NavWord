@@ -102,6 +102,7 @@ const styles = StyleSheet.create({
         width: 120
     },
     filterContainer: {
+        backgroundColor: "#dcdcdc",
         alignItems: "center",
         borderColor: "#dcdcdc",
         padding: 15,
